@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin-top: 50px;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background-image: url(Gambar/6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper{
+    width: 380px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 15px 20px rgba(80, 81, 81, 0.972);
+}
+.wrapper .title{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 100px;
+    color: #4158d0;
+    user-select: none;
+    border-radius: 10px 10px 15px 10px;
+    background-color: #ffffff;
+    background: linear-gradient(-135deg, );
+
+}
+
+.wrapper form{
+    padding : 10px 30px 50px 30px;
+}
+.wrapper form .field{
+    height : 50px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+.wrapper form .field input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding-left: 20px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.wrapper form .field label{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    color: #999999;
+    font-weight: 400;
+    font-size : 17px;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transform: all 0.3s ease;
+}
+
+.form content{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+form .content .checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form .content label{
+    color: #262626;
+    user-select: none;
+    padding-left: 5px;
+}
+.field .mail{
+    margin-bottom: 10px;
+}
+
+.field .mailed{
+    margin-bottom: 10px;
+}
+
+.field .pass{
+    margin-top: 10px;
+}
+
+.field .button{
+    margin-top: 40px;
+}
+
+.field .pass{
+    margin-top: 50px;
+}
+
+.field .passed{
+    margin-top: 10px;
+}
+
+form .field button{
+    color: #4158d0;
+    border: none;
+    padding-left: 0;
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background: linear-gradient(-135deg, );
+    transition: all 0.3s ease;
+    width: 300px;
+    border-radius: 20px;
+}
